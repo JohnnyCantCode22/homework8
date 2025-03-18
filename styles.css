@@ -1,0 +1,91 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Card */
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode th {
+    background-color: #444;
+}
